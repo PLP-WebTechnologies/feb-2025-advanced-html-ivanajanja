@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my website">
+    <title>Ivan's website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Top 5 Goals</h2>
+    <ol type="I">
+        <li>Learn HTML5</li>
+        <li>Practice CSS</li>
+        <li>Master JavaScript</li>
+        <li>Understand Web APIs</li>
+        <li>Build Projects</li>
+    </ol>
+
+    <!-- External image from Pexels -->
+    <h2>Sample Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Scenic Landscape" width="500">
+
+    <!-- Table with contact info -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>123 Elm St</td>
+                <td>+254712345678</td>
+                <td>alice@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bob Kimani</td>
+                <td>456 Maple Ave</td>
+                <td>+254734567890</td>
+                <td>bob@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Carla Mwangi</td>
+                <td>789 Pine Rd</td>
+                <td>+254798765432</td>
+                <td>carla@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Otieno</td>
+                <td>321 Cedar Blvd</td>
+                <td>+254701234567</td>
+                <td>david@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emma Wambui</td>
+                <td>654 Birch Ln</td>
+                <td>+254756789012</td>
+                <td>emma@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name field -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+        <!-- Password field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password" required
+            minlength="6"><br><br>
+
+        <!-- Date field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown menu -->
+        <label for="country">Select Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Choose--</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select><br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Skills:</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia: Audio and Video -->
+    <h2>Multimedia Elements</h2>
+    <h3>Sample Audio:</h3>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Sample Video:</h3>
+    <video width="400" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+
+</html>
